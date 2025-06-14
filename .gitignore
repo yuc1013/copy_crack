@@ -1,0 +1,54 @@
+*.lock
+.venv
+pyproject.toml
+.python-version
+
+# 编译产物与缓存文件
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# 虚拟环境目录
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# 包管理与构建产物
+*.egg-info/
+.installed.cfg
+*.egg
+build/
+dist/
+pip-wheel-metadata/
+*.manifest
+*.spec
+
+# 日志与数据库文件
+*.log
+*.sqlite3
+*.sqlite3-journal
+pip-log.txt
+
+# IDE/编辑器配置
+.vscode/
+.idea/
+.DS_Store
+.spyderproject
+
+# 测试与覆盖率报告
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.pytest_cache/
+
+# 其他常见忽略项
+data/          # 数据文件（如大型数据集）
+instance/      # Flask实例文件夹
+local_settings.py  # 本地配置文件
